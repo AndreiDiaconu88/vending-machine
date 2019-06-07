@@ -1,0 +1,98 @@
+
+input {
+  height: 23px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+label {
+  width: 130px;
+  display: inline-block;
+}
+
+p {
+  color: #ff0000;
+  font-weight: 500;
+}
+
+button {
+  height: 30px;
+  margin-left: 10px;
+  background: #d2691e;
+  color: #ffffe0;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  outline: none;
+  &:hover {
+    background: #556b2f
+  }
+
+  &:disabled {
+    background: #a9a9a9;
+  }
+
+  &#clear {
+    margin: 10px;
+    background: #226124;
+    &:hover {
+      background: #551b2f;
+    }
+    &:disabled {
+      background: #a9a9a9;
+    }
+  }
+}
+
+header + div {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+form ~ div {
+  margin-bottom: 10px;
+}
+
+.VendingMachine {
+  text-align: center;
+  color: #fff;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 40px;
+}
+
+.product {
+  color: white;
+  width:150px;
+  height: 150px;
+  margin: 10px 0;
+  border: 1px solid green;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+
+  & div:not(:first-of-type) {
+    font-size: 18px;
+    color: chocolate;
+  }
+}
+
+.input {
+  display: flex;
+  margin: 10px auto;
+  width: 410px;
+}
+
+
+

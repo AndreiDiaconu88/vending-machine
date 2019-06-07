@@ -1,0 +1,66 @@
+[
+  {
+    "code": 1,
+    "name": "cola",
+    "price": 50,
+    "quantity": 10
+  },  {
+    "code": 2,
+    "name": "fanta",
+    "price": 50,
+    "quantity": 9
+  },  {
+    "code": 3,
+    "name": "snickers",
+    "price": 20,
+    "quantity": 8
+  },  {
+    "code": 4,
+    "name": "apa",
+    "price": 15,
+    "quantity": 15
+  },  {
+    "code": 5,
+    "name": "baton",
+    "price": 20,
+    "quantity": 10
+  },  {
+    "code": 6,
+    "name": "sprite",
+    "price": 50,
+    "quantity": 10
+  },  {
+    "code": 7,
+    "name": "joe",
+    "price": 20,
+    "quantity": 10
+  },  {
+    "code": 8,
+    "name": "bomboane",
+    "price": 25,
+    "quantity": 10
+  },  {
+    "code": 9,
+    "name": "corn",
+    "price": 30,
+    "quantity": 6
+  },
+  {
+    "code": 10,
+    "name": "cola",
+    "price": 50,
+    "quantity": 10
+  },
+  {
+    "code": 11,
+    "name": "fanta",
+    "price": 50,
+    "quantity": 9
+  },
+  {
+    "code": 12,
+    "name": "snickers",
+    "price": 20,
+    "quantity": 8
+  }
+]
